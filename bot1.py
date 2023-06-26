@@ -29,6 +29,6 @@ updater = Updater(bot_token)
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('convert', convert_video))
 
-# Запуск бота
+
 updater.start_polling()
 updater.idle()
